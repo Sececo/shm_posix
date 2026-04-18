@@ -28,7 +28,7 @@ fn main (){
 
         // Creamos una "vista" (slice) de 20 bytes para leer.
         // std::slice::from_raw_parts construye un slice de Rust ([u8]) a partir del puntero y una longitud fija.
-        let slice = std::slice::from_raw_parts(ptr, 20);
+        let slice = std::slice::from_raw_parts(ptr, 17);
 
         // Convertimos esos bytes a texto legible (UTF-8).
         // from_utf8_lossy reemplaza los bytes que no sean caracteres válidos por un símbolo de reemplazo ().
