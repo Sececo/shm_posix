@@ -7,7 +7,7 @@ edition = "2024"
 name = "shm_w_rust"
 path = "./src/shm_w_r.rs"
 [[bin]]
-name = "shm_R_rust"
+name = "shm_r_rust"
 path = "./src/shm_r_r.rs"
 
 [dependencies]
