@@ -1,0 +1,15 @@
+[package]
+name = "hello"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "shm_w_rust"
+path = "./src/shm_w_r.rs"
+[[bin]]
+name = "shm_R_rust"
+path = "./src/shm_r_r.rs"
+
+[dependencies]
+shared_memory = "0.12.4"
+
